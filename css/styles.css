@@ -212,4 +212,303 @@ main {
     animation: fadeOpen 1s ease-in-out forwards 500ms;
 }
 
+.slide-6M {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+}
+
+.slide-6-contain {
+    position: absolute;
+    top: 110px;
+    left: 75px;
+    width: 630px;
+    height: 630px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 2.75s;
+    -moz-animation: fadeIn 1s ease-in-out forwards 2.75s;
+    -o-animation: fadeIn 1s ease-in-out forwards 2.75s;
+    animation: fadeIn 1s ease-in-out forwards 2.75s;
+}
+
+.slide-6-elements {
+    position: relative;
+    width: 207px;
+    height: 207px;
+    display: inline-block;
+}
+
+.slide-6-element-1 {
+    background: #BFCE17;
+}
+
+.slide-6-element-2 {
+    background: #FFAC39;
+}
+
+.slide-6-element-3 {
+    background: #00A5C4;
+}
+
+.slide-6-element-4 {
+    background: #E7508A;
+}
+
+.slide-6-element-5 {
+    background: #8E6A5B;
+}
+
+.slide-6-element-6 {
+    background: #CE1860;
+}
+
+.slide-6-element-7 {
+    background: #02A75C;
+}
+
+.slide-6-element-8 {
+    background: #00AA9D;
+}
+
+.slide-6-element-9 {
+    background: #FD584A;
+}
+
+.slide-6-imgs {
+    position: absolute;
+    width: 190px;
+    opacity: 0;
+}
+
+.slide-6-0 {
+    top: 118px;
+    left: 84px;
+}
+
+.slide-6-1 {
+    top: 118px;
+    left: 294px;
+}
+
+.slide-6-2 {
+    top: 118px;
+    left: 505px;
+}
+
+.slide-6-3 {
+    top: 330px;
+    left: 84px;
+}
+
+.slide-6-4 {
+    top: 330px;
+    left: 294px;
+}
+
+.slide-6-5 {
+    top: 330px;
+    left: 505px;
+}
+
+.slide-6-6 {
+    top: 540px;
+    left: 84px;
+}
+
+.slide-6-7 {
+    top: 540px;
+    left: 294px;
+}
+
+.slide-6-8 {
+    top: 540px;
+    left: 505px;
+}
+
+.slide-6-9 {
+    position: absolute;
+    top: 321px;
+    left: 704px;
+    height: 207px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 2.75s;
+    -moz-animation: fadeIn 1s ease-in-out forwards 2.75s;
+    -o-animation: fadeIn 1s ease-in-out forwards 2.75s;
+    animation: fadeIn 1s ease-in-out forwards 2.75s;
+}
+
+.slide-7-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1024px;
+}
+
+.slide-8-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1024px;
+}
+
+.slide-9-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-9-2 {
+    position: absolute;
+    top: 258px;
+    right: 75px;
+    width: 436px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 1.5s;
+    -moz-animation: fadeOpen 1s ease-in-out forwards 1.5s;
+    -o-animation: fadeOpen 1s ease-in-out forwards 1.5s;
+    animation: fadeOpen 1s ease-in-out forwards 1.5s;
+}
+
+.slide-9-contain {
+    opacity: 0;
+    -webkit-animation: fadeIn 500ms ease-in-out forwards 1.75s;
+    -moz-animation: fadeIn 500ms ease-in-out forwards 1.75s;
+    -o-animation: fadeIn 500ms ease-in-out forwards 1.75s;
+    animation: fadeIn 500ms ease-in-out forwards 1.75s;
+}
+
+.slide-9-circle {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background: #00A6C5;
+    border-radius: 50%;
+}
+
+.slide-9-3 {
+    top: 44px;
+    left: 399px;
+    -webkit-animation: slide-9-3 2s ease-in-out forwards infinite 1s;
+    animation: slide-9-3 2s ease-in-out forwards infinite 1s;
+}
+
+.slide-9-4 {
+    top: 144px;
+    left: 399px;
+    -webkit-animation: slide-9-4 2s ease-in-out forwards infinite 1.5s;
+    animation: slide-9-4 2s ease-in-out forwards infinite 1.5s;
+}
+
+.slide-9-5 {
+    top: 244px;
+    left: 399px;
+    -webkit-animation: slide-9-5 2s ease-in-out forwards infinite 1.25s;
+    animation: slide-9-5 2s ease-in-out forwards infinite 1.25s;
+}
+
+.slide-9-6 {
+    top: 344px;
+    left: 399px;
+    -webkit-animation: slide-9-6 2s ease-in-out forwards infinite 1s;
+    animation: slide-9-6 2s ease-in-out forwards infinite 1s;
+}
+
+.slide-9-7 {
+    top: 444px;
+    left: 399px;
+    -webkit-animation: slide-9-7 2s ease-in-out forwards infinite 1.5s;
+    animation: slide-9-7 2s ease-in-out forwards infinite 1.5s;
+}
+
+.slide-9-8 {
+    top: 544px;
+    left: 399px;
+    -webkit-animation: slide-9-8 2s ease-in-out forwards infinite 1.25s;
+    animation: slide-9-8 2s ease-in-out forwards infinite 1.25s;
+}
+
+.slide-9-9 {
+    top: 644px;
+    left: 399px;
+    -webkit-animation: slide-9-9 2s ease-in-out forwards infinite 1.75s;
+    animation: slide-9-9 2s ease-in-out forwards infinite 1.75s;
+}
+
+.slide-10-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-10-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    -moz-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    -o-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    animation: fadeIn 1s ease-in-out forwards 1.25s;
+}
+
+.slide-10-3 {
+    position: absolute;
+    top: 308px;
+    left: 182px;
+    width: 70px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 750ms ease-in-out forwards 1.75s;
+    animation: slide-10-3 750ms ease-in-out forwards 1.75s; 
+}
+
+.slide-10-4 {
+    position: absolute;
+    top: 373px;
+    left: 312px;
+    width: 70px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 750ms ease-in-out forwards 2s;
+    animation: slide-10-3 750ms ease-in-out forwards 2s; 
+}
+
+.slide-10-5 {
+    position: absolute;
+    top: 320px;
+    left: 503px;
+    width: 70px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 750ms ease-in-out forwards 2.25s;
+    animation: slide-10-3 750ms ease-in-out forwards 2.25s; 
+}
+
+.slide-10-6 {
+    position: absolute;
+    top: 388px;
+    left: 608px;
+    width: 70px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 750ms ease-in-out forwards 2.5s;
+    animation: slide-10-3 750ms ease-in-out forwards 2.5s; 
+}
+
 
