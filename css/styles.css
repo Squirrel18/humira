@@ -211,5 +211,31 @@ main {
     -o-animation: fadeOpen 1s ease-in-out forwards 500ms;
     animation: fadeOpen 1s ease-in-out forwards 500ms;
 }
+/*Style Slide-33*/
+
+.slide img{
+	position: absolute;
+	opacity: 0;
+	
+}
+
+.slide-33{
+ 	top: 120px;
+    left: 247px;
+    width: 529px;
+    -webkit-animation: fadeIn 750ms ease-in-out forwards 1s;
+    -moz-animation: fadeIn 750ms ease-in-out forwards 1s;
+    -o-animation: fadeIn 750ms ease-in-out forwards 1s;
+    animation: fadeIn 750ms ease-in-out forwards 1s;
+}
+.slide-33-1{
+ 	bottom: 0px;
+    left: 286px;
+    width: 451px;
+    -webkit-animation: zoomCenter 950ms ease-in-out forwards 1.5s;
+    -moz-animation: zoomCenter 950ms ease-in-out forwards 1.5s;
+    -o-animation: zoomCenter 950ms ease-in-out forwards 1.5s;
+    animation: zoomCenter 950ms ease-in-out forwards 1.5s;
+}
 
 
