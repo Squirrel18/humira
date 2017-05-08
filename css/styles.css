@@ -279,6 +279,51 @@ main {
     -o-animation: zoomCenter 950ms ease-in-out forwards 1.5s;
     animation: zoomCenter 950ms ease-in-out forwards 1.5s;
 }
+.slide-30-1{
+ 	bottom:0px;
+    left: 0px;
+    width:1017px;
+    -webkit-animation: slideLeft 750ms ease-in-out forwards 1s;
+    -moz-animation: slideLeft 750ms ease-in-out forwards 1s;
+    -o-animation: slideLeft 750ms ease-in-out forwards 1s;
+    animation: slideLeft 750ms ease-in-out forwards 1s;
+}
+.slide-30-2{
+ 	top: 0px;
+    right:0px;
+    width:554px;
+    -webkit-animation: slideRight 900ms ease-in-out forwards 1.5s;
+    -moz-animation: slideRight 900ms ease-in-out forwards 1.5s;
+    -o-animation: slideRight 900ms ease-in-out forwards 1.5s;
+    animation: slideRight 900ms ease-in-out forwards 1.5s;
+	
+}
+.slide-30-3{
+ 	top: 0px;
+    right:0px;
+    width:554px;	
+    -webkit-animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+    -moz-animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+    -o-animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+    animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+	
+}
+.slide-30-4{
+ 	top: 0px;
+    left:0px;
+    width:554px;	
+    -webkit-animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+    -moz-animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+    -o-animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+    animation: fadeIn 1300ms ease-in-out forwards 2.5s;
+	
+}
+.video-slide-30{
+	width: 90px;
+    position: absolute;
+    left: 113px;
+    bottom: 93px;
+}
 
 
 

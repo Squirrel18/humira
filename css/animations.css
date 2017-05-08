@@ -184,4 +184,116 @@
 	100% {-o-transform: scale(1.1);opacity:1;}
 	}
 
+/*Animation rotateOpen*/
+@-webkit-keyframes rotateOpen { 
+	0% {-webkit-transform: rotateY(90deg);}
+	100% {-webkit-opacity: 1;perspective : 500px;}
+}
+
+@-moz-keyframes rotateOpen {
+	0% {-moz-transform: rotateY(90deg);}
+	100% {-moz-opacity: 1;perspective : 500px;}
+}
+
+@-o-keyframes rotateOpen {
+	0% {-o-transform: rotateY(90deg);}
+	100% {-o-opacity: 1;perspective : 500px;}
+}
+
+@keyframes rotateOpen { 
+	0% {transform: rotateY(90deg);}
+	100% { opacity: 1;perspective : 500px;}
+}
+
+/*Animation rotateClose*/
+@-webkit-keyframes rotateClose { 
+	0% {-webkit-transform: rotateY(90deg);}
+	100% {-webkit-opacity: 1;perspective : 500px;}
+}
+
+@-moz-keyframes rotateClose {
+	0% {-moz-transform: rotateY(90deg);}
+	100% {-moz-opacity: 1;perspective : 500px;}
+}
+
+@-o-keyframes rotateClose {
+	0% {-o-transform: rotateY(0deg);}
+	100% {-o-opacity: 0;perspective : 500px;}
+}
+
+@keyframes rotateClose { 
+	0% {perspective : 500px;}
+	100% { opacity: 0;transform: rotateY(45deg);}
+}
+	/*Animation slideDown*/
+	@keyframes slideDown {
+	0% {transform: translateY(-100%);}
+	100% {transform: translateY(0%);opacity:1;}
+	}
+	@-o-keyframes slideDown {
+	0% {-o-transform: translateY(-100%);}
+	100% {-o-transform: translateY(0%);opacity: 1;}
+	}
+	@-webkit-keyframes slideDown {
+	0% {-webkit-transform: translateY(-100%);}
+	100% {-webkit-transform: translateY(0%);opacity: 1;}
+	}
+	@-moz-keyframes slideDown {
+	0% {-moz-transform: translateY(-100%);}
+	100% {-moz-transform: translateY(0%);opacity:1;}
+	}
+
+		/*Animation slideUp*/	
+
+	@keyframes slideUp {
+	0% {-webkit-transform: translateY(100%);}
+	100% {-webkit-transform: translateY(0%);opacity: 1;}
+	}
+	@-webkit-keyframes slideUp {
+	0% {-webkit-transform: translateY(100%);}
+	100% {-webkit-transform: translateY(0%);opacity: 1;}
+	}
+	@-moz-keyframes slideUp {
+	0% {-moz-transform: translateY(100%);}
+	100% {-moz-transform: translateY(0%);opacity: 1;}
+	}
+	@-o-keyframes slideUp {
+	0% {-o-transform: translateY(0%);}
+	100% {-o-transform: translateY(100%);opacity: 1;}
+	}
+			/*Animation slideLeft*/
+	@keyframes slideLeft {
+	0% {transform: translateX(-100%);}
+	100% {transform: translateX(0%);opacity:1;}
+	}
+	@-o-keyframes slideLeft {
+	0% {-o-transform: translateX(-100%);}
+	100% {-o-transform: translateX(0%);opacity: 1;}
+	}
+	@-webkit-keyframes slideLeft {
+	0% {-webkit-transform: translateX(-100%);}
+	100% {-webkit-transform: translateX(0%);opacity: 1;}
+	}
+	@-moz-keyframes slideLeft {
+	0% {-moz-transform: translateX(-100%);}
+	100% {-moz-transform: translateX(0%);opacity:1;}
+	}
+				/*Animation slideRight*/
+	@keyframes slideRight {
+	0% {-webkit-transform: translateX(100%);}
+	100% {-webkit-transform: translateX(0%);opacity:1;}
+	}
+	@-webkit-keyframes slideRight {
+	0% {-webkit-transform: translateX(100%);}
+	100% {-webkit-transform: translateX(0%);opacity:1;}
+	}
+	@-moz-keyframes slideRight {
+	0% {-moz-transform: translateX(100%);}
+	100% {-moz-transform: translateX(0%);opacity:1;}
+	}
+	@-o-keyframes translateX {
+	0% {-o-transform: translateX(100%);}
+	100% {-o-transform: translateX(0%);opacity: 1;}
+	}
 /** * Fin animaciones atlas trastornos psiquiátricos * **/
+
