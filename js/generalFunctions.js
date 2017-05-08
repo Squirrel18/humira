@@ -1,4 +1,5 @@
 function start() {
+
     resizeAnimation();
     var elements = document.querySelectorAll("img");
     for(let e of elements) {
@@ -68,4 +69,41 @@ function slide_5() {
             e.style.animation = `fadeOpen 750ms ease-in-out forwards ${time}s`;
         }
     }
+}
+//Function reel 
+function reelImage(){
+	
+	var idImage=document.getElementById("imgReel");
+	var size=idImage.getAttribute("data-reel-size");
+	var time=idImage.getAttribute("data-reel-time");
+	var rute=idImage.getAttribute("data-reel-src")+"/";
+	var type="."+idImage.getAttribute("data-type");
+	var timeStart=idImage.getAttribute("data-start");
+	var loop=idImage.getAttribute("data-loop");
+	var cont=0;
+		
+	var validate=(loop=="true")?true:false;
+	console.log(validate);
+	setTimeout(function(){
+	var interval=setInterval(function(){
+		
+		
+		idImage.src=rute+cont+type;
+		
+			cont++;
+		if(cont>size){
+			if(validate){
+			
+				cont=0;
+			}
+			else{
+				clearInterval(interval);
+			return false;
+			}
+		}
+		
+	},time);
+	
+	},timeStart);
+	
 }
