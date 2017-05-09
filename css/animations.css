@@ -295,5 +295,24 @@
 	0% {-o-transform: translateX(100%);}
 	100% {-o-transform: translateX(0%);opacity: 1;}
 	}
+@keyframes moveSlideshow {
+	0% {-webkit-transform: translateX(0%);opacity:0.5;}
+	20% {opacity:1;}
+	50% {opacity:0;}
+	100% {-webkit-transform: translateX(40%);}
+	
+}
+@-webkit-keyframes moveSlideshow {
+	0% {-webkit-opacity:1}
+  100% {-webkit-transform: translateX(50%);}
+}
+@-moz-keyframes moveSlideshow {
+	0% {-moz-opacity:1}
+  100% {-moz-transform: translateX(50%);}
+}
+@-o-keyframes moveSlideshow {
+	0% {-o-opacity:1}
+  100% {-o-transform: translateX(50%);}
+}
 /** * Fin animaciones atlas trastornos psiquiátricos * **/
 
