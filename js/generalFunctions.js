@@ -120,3 +120,14 @@ function slide_6_function(data) {
         checkArray[data] = true;
     }
 }
+
+function slide_16() {
+    if(document.querySelector(".slide-16-1-contain")) {
+        let time = 0.25;
+        for(let e of Array.from(document.querySelector(".slide-16-1-contain").children)) {
+            time += 0.25;
+            e.style.WebkitAnimation = `fadeOpen 750ms ease-in-out forwards ${time}s`;
+            e.style.animation = `fadeOpen 750ms ease-in-out forwards ${time}s`;
+        }
+    }
+}

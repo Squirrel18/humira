@@ -947,5 +947,237 @@ main {
     animation: slide-14-3 750ms ease-in-out forwards 4.5s;
 }
 
+.slide-15-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-15-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    -moz-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    -o-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    animation: fadeIn 1s ease-in-out forwards 1.25s;
+}
+
+.slide-15-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 500ms ease-in-out forwards 2s;
+    -moz-animation: fadeIn 500ms ease-in-out forwards 2s;
+    -o-animation: fadeIn 500ms ease-in-out forwards 2s;
+    animation: fadeIn 500ms ease-in-out forwards 2s;
+}
+
+.slide-15-4 {
+    position: absolute;
+    top: 268px;
+    left: 183px;
+    width: 540px;
+    opacity: 0;
+    -webkit-animation: slide-12-4 1s ease-in-out forwards 2s;
+    animation: slide-12-4 1s ease-in-out forwards 2s;
+}
+
+.slide-15-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 500ms ease-in-out forwards 3s;
+    -moz-animation: fadeIn 500ms ease-in-out forwards 3s;
+    -o-animation: fadeIn 500ms ease-in-out forwards 3s;
+    animation: fadeIn 500ms ease-in-out forwards 3s;
+}
+
+.slide-15-6 {
+    position: absolute;
+    top: 268px;
+    left: 183px;
+    width: 540px;
+    opacity: 0;
+    -webkit-animation: slide-12-4 1s ease-in-out forwards 3s;
+    animation: slide-12-4 1s ease-in-out forwards 3s;
+}
+
+.slide-16-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-16-1-contain {
+    position: absolute;
+    top: 240px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 646px;
+    height: 335px;
+}
+
+.slide-16-1-img-1 {
+    position: relative;
+    width: 30px;
+    height: 78px;
+    margin: 0 2px;
+    display: inline-block;
+    background-image: url('../assets/slide-16-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+
+.slide-16-1-img-2 {
+    position: relative;
+    width: 30px;
+    height: 78px;
+    margin: 0 2px;
+    display: inline-block;
+    background-image: url('../assets/slide-16-3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+
+.slide-17-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-17-2 {
+    position: absolute;
+    top: 263px;
+    left: 53px;
+    width: 144px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+    -moz-animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+    -o-animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+    animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+}
+
+.slide-17-3 {
+    position: absolute;
+    top: 240px;
+    right: 69px;
+    width: 188px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+    -moz-animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+    -o-animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+    animation: fadeOpen 500ms ease-in-out forwards 1.5s;
+}
+
+.slide-17-4 {
+    position: absolute;
+    top: 292px;
+    left: 152px;
+    width: 243px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 500ms ease-in-out forwards 2s;
+    -moz-animation: fadeOpen 500ms ease-in-out forwards 2s;
+    -o-animation: fadeOpen 500ms ease-in-out forwards 2s;
+    animation: fadeOpen 500ms ease-in-out forwards 2s;
+}
+
+.slide-17-5 {
+    position: absolute;
+    top: 266px;
+    right: 202px;
+    width: 320px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 500ms ease-in-out forwards 2s;
+    -moz-animation: fadeOpen 500ms ease-in-out forwards 2s;
+    -o-animation: fadeOpen 500ms ease-in-out forwards 2s;
+    animation: fadeOpen 500ms ease-in-out forwards 2s;
+}
+
+.slide-17-6 {
+    position: absolute;
+    top: 211px;
+    right: 184px;
+    width: 379px;
+    opacity: 0;
+    -webkit-animation: slide-17-6 2s linear forwards infinite 2s;
+    animation: slide-17-6 2s linear forwards infinite 2s;
+}
+
+.slide-17-7 {
+    position: absolute;
+    top: 258px;
+    left: 167px;
+    width: 286px;
+    opacity: 0;
+    -webkit-animation: slide-17-6 2s linear forwards infinite 2s;
+    animation: slide-17-6 2s linear forwards infinite 2s;
+}
+
+.slide-18-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 1.5s;
+    -moz-animation: fadeIn 1s ease-in-out forwards 1.5s;
+    -o-animation: fadeIn 1s ease-in-out forwards 1.5s;
+    animation: fadeIn 1s ease-in-out forwards 1.5s;
+}
+
+.slide-18 {
+    position: absolute;
+    top: 190px;
+    left: -150px;
+    width: 1100px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-18-2 {
+    position: absolute;
+    top: 320px;
+    right: 275px;
+    width: 75px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 1.5s;
+    -moz-animation: fadeIn 1s ease-in-out forwards 1.5s;
+    -o-animation: fadeIn 1s ease-in-out forwards 1.5s;
+    animation: fadeIn 1s ease-in-out forwards 1.5s;
+}
+
+
 
 
