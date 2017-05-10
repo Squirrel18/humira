@@ -8,11 +8,7 @@ function start() {
 }
 
 function videoCheck() {
-    let videoElement = document.querySelector("video");
-    videoElement.onended = function() {
-        alert("The video has ended");
-        window.location.assign("slides/slide-1.html");
-    };
+    window.location.assign("slides/slide-1.html");
 }
 
 function resizeAnimation() {

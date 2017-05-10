@@ -9,9 +9,9 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<title>Humira</title>
 	</head>
-	<body onload="start();videoCheck();">
+	<body onload="start()">
 		<main>
-            <video class="index" autoplay>
+            <video class="index" autoplay controls onended="videoCheck()">
                 <source src="assets/video/index.mp4" type="video/mp4">
             </video>
         </main>
