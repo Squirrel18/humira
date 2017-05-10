@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="../css/styles.css">
 		<title>Humira</title>
 	</head>
-	<body onload="start();">
+	<body onload="start();reelImage();">
 		<main style="background: white;">
             <img class="background" src="../assets/white-background-4.png" usemap="#backgroundMap">
             <map name="backgroundMap">
@@ -22,14 +22,20 @@
                 <area shape="circle" coords="973,400,30" onclick="changeSlide(25)">
                 <!-- Fin menú areas-->
             </map>
-      
-           	<div class="slide"><img class="slide-24-3" src="../assets/slide-24-2-3.png"></div>
-           	 <div class="slide"><img class="slide-24-1" src="../assets/slide-24-2-1.png"></div>
-			<div class="slide"><img class="slide-24-2" src="../assets/slide-24-2-2.png"></div>
-           
-           
-      	
-       
+           	<div class="slide"><img class="slide-24-1" src="../assets/slide-24-1.png"></div>
+         
+            <div class="slide"><img class="slide-24-2" src="../assets/slide-24-2.png"></div>
+      		<video class="video-slide-24" autoplay loop>
+      			 <source src="../assets/video/slide-18-1.mp4" type="video/mp4">
+      		</video>
+       		<div class="containerFull24"><img id="imgReel" 
+				data-reel-src="../assets/reelSlide24" 
+				data-type="png" 
+				data-start="1000"
+				data-reel-time="1200" 
+				data-reel-size="2"
+     			data-loop="true";  
+      			src="../assets/reelSlide24/0.png"></div>
         </main>
 	</body>
 </html>

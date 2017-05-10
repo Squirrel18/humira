@@ -70,45 +70,37 @@ function slide_5() {
         }
     }
 }
-<<<<<<< HEAD
+
 //Function reel 
 function reelImage(){
 	
-	var idImage=document.getElementById("imgReel");
-	var size=idImage.getAttribute("data-reel-size");
-	var time=idImage.getAttribute("data-reel-time");
-	var rute=idImage.getAttribute("data-reel-src")+"/";
-	var type="."+idImage.getAttribute("data-type");
-	var timeStart=idImage.getAttribute("data-start");
-	var loop=idImage.getAttribute("data-loop");
-	var cont=0;
+	let idImage = document.getElementById("imgReel");
+	let size = idImage.getAttribute("data-reel-size");
+	let time = idImage.getAttribute("data-reel-time");
+	let rute = idImage.getAttribute("data-reel-src") + "/";
+	let type = "." + idImage.getAttribute("data-type");
+	let timeStart = idImage.getAttribute("data-start");
+	let loop = idImage.getAttribute("data-loop");
+	let cont = 0;
 		
-	var validate=(loop=="true")?true:false;
+	let validate = loop ? true : false;
 	console.log(validate);
-	setTimeout(function(){
-	var interval=setInterval(function(){
-		
-		
-		idImage.src=rute+cont+type;
-		
+	setTimeout(function() {
+	    let interval = setInterval(function() {
+		    idImage.src = rute + cont + type;
 			cont++;
-		if(cont>size){
-			if(validate){
-			
-				cont=0;
-			}
-			else{
-				clearInterval(interval);
-			return false;
-			}
-		}
-		
-	},time);
+            if(cont > size) {
+                if(validate) {
+                    cont = 0;
+                } else {
+                    clearInterval(interval);
+                    return false;
+                }
+            }
+	    }, time);
+	}, timeStart);
+}
 	
-	},timeStart);
-	
-=======
-
 function slide_6() {
     if(document.querySelectorAll(".slide-6-imgs")) {
         let time = 0.25;
@@ -169,5 +161,4 @@ function slide_16() {
             e.style.animation = `fadeOpen 750ms ease-in-out forwards ${time}s`;
         }
     }
->>>>>>> refs/remotes/origin/danielBranch
 }
