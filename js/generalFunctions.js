@@ -1,21 +1,15 @@
 function start() {
     resizeAnimation();
-    var video = document.querySelectorAll("video");
-    /*for(var i = 0; i < video.length; i++) {
-        console.log(video[i]);
-        video[i].play();
-    }*/
-    //alert('video');
 }
 
 function videoCheck() {
     var videoElement = document.querySelector(".index");
     if(videoElement) {
-        videoElement.style.WebkitAnimation = 'fadeClose 750ms ease-in-out forwards';
-        videoElement.style.animation = 'fadeClose 750ms ease-in-out forwards';
+        videoElement.style.WebkitAnimation = 'fadeClose 250ms ease-in-out forwards';
+        videoElement.style.animation = 'fadeClose 250ms ease-in-out forwards';
         setTimeout(function() {
             window.location.assign("slides/slide-1.html");
-        }, 750);
+        }, 250);
     }
 }
 
@@ -70,40 +64,6 @@ function slide_5() {
             e_1[i].style.animation = 'fadeOpen 750ms ease-in-out forwards ' + time + 's';
         }
     }
-}
-
-//Function reel 
-function reelImage(){
-	
-	var idImage = document.getElementById("imgReel");
-	var size = idImage.getAttribute("data-reel-size");
-	var time = idImage.getAttribute("data-reel-time");
-	var rute = idImage.getAttribute("data-reel-src") + "/";
-	var type = "." + idImage.getAttribute("data-type");
-	var timeStart = idImage.getAttribute("data-start");
-	var loop = idImage.getAttribute("data-loop");
-	var cont = 0;
-		
-    if(loop) {
-        validate = true;
-    } else {
-        validate = false;
-    }
-
-	setTimeout(function() {
-	    var interval = setInterval(function() {
-		    idImage.src = rute + cont + type;
-			cont++;
-            if(cont > size) {
-                if(validate) {
-                    cont = 0;
-                } else {
-                    clearInterval(interval);
-                    return false;
-                }
-            }
-	    }, time);
-	}, timeStart);
 }
 	
 function slide_6() {
