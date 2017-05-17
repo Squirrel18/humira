@@ -9,7 +9,14 @@ function start() {
 }
 
 function videoCheck() {
-    window.location.assign("slides/slide-1.html");
+    var videoElement = document.querySelector(".index");
+    if(videoElement) {
+        videoElement.style.WebkitAnimation = 'fadeClose 750ms ease-in-out forwards';
+        videoElement.style.animation = 'fadeClose 750ms ease-in-out forwards';
+        setTimeout(function() {
+            window.location.assign("slides/slide-1.html");
+        }, 750);
+    }
 }
 
 function resizeAnimation() {
