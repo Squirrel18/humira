@@ -1532,4 +1532,16 @@ main {
     animation: fadeOpen 750ms ease-in-out forwards 7.75s;
 }
 
+.slide-20-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
 
