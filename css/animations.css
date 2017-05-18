@@ -362,6 +362,16 @@
     100% {transform: scale(1,1); transform-origin: 100% 0%; opacity: 1;}
 }
 
+@-webkit-keyframes slide-21-2 { 
+    0% {right: -300px;}
+    100% {opacity: 1;}
+}
+
+@keyframes slide-21-2 { 
+    0% {right: -300px;}
+    100% {opacity: 1;}
+}
+
 
 
 
