@@ -1966,5 +1966,45 @@ main {
     animation: fadeOpen 1s ease-in-out forwards 3.25s;
 }
 
+.slide-28-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-28-2 {
+    position: absolute;
+    top: 28px;
+    left: 60px;
+    width: 330px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-28-3 {
+    position: absolute;
+    top: 128px;
+    left: 390px;
+    width: 551px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 1.75s;
+    animation: fadeOpen 1s ease-in-out forwards 1.75s;
+}
+
+.slide-28-4 {
+    position: absolute;
+    top: 280px;
+    left: 540px;
+    width: 90px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 2s;
+    animation: fadeIn 1s ease-in-out forwards 2s;
+}
+
 
 
