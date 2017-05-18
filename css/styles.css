@@ -1544,4 +1544,76 @@ main {
     animation: fadeIn 1s ease-in-out forwards 750ms;
 }
 
+.slide-20-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    -moz-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    -o-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    animation: fadeIn 1s ease-in-out forwards 1.25s;
+}
+
+.slide-20-3 {
+    position: absolute;
+    top: 267px;
+    left: 187px;
+    width: 69px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 1s ease-in-out forwards 1.75s;
+    -moz-animation: slide-10-3 1s ease-in-out forwards 1.75s;
+    -o-animation: slide-10-3 1s ease-in-out forwards 1.75s;
+    animation: slide-10-3 1s ease-in-out forwards 1.75s;
+}
+
+.slide-20-4 {
+    position: absolute;
+    top: 393px;
+    left: 257px;
+    width: 69px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 1s ease-in-out forwards 2s;
+    -moz-animation: slide-10-3 1s ease-in-out forwards 2s;
+    -o-animation: slide-10-3 1s ease-in-out forwards 2s;
+    animation: slide-10-3 1s ease-in-out forwards 2s;
+}
+
+.slide-20-5 {
+    position: absolute;
+    top: 387px;
+    left: 445px;
+    width: 69px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 1s ease-in-out forwards 2.25s;
+    -moz-animation: slide-10-3 1s ease-in-out forwards 2.25s;
+    -o-animation: slide-10-3 1s ease-in-out forwards 2.25s;
+    animation: slide-10-3 1s ease-in-out forwards 2.25s;
+}
+
+.slide-20-6 {
+    position: absolute;
+    top: 457px;
+    left: 515px;
+    width: 69px;
+    opacity: 0;
+    -webkit-animation: slide-10-3 1s ease-in-out forwards 2.5s;
+    -moz-animation: slide-10-3 1s ease-in-out forwards 2.5s;
+    -o-animation: slide-10-3 1s ease-in-out forwards 2.5s;
+    animation: slide-10-3 1s ease-in-out forwards 2.5s;
+}
+
+.slide-20-7 {
+    position: absolute;
+    top: 207px;
+    left: 204px;
+    width: 484px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 2.75s;
+    -moz-animation: fadeOpen 1s ease-in-out forwards 2.75s;
+    -o-animation: fadeOpen 1s ease-in-out forwards 2.75s;
+    animation: fadeOpen 1s ease-in-out forwards 2.75s;
+}
+
 
