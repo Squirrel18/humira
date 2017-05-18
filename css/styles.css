@@ -2006,5 +2006,68 @@ main {
     animation: fadeIn 1s ease-in-out forwards 2s;
 }
 
+.slide-29-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-29-cover {
+    position: absolute;
+    width: 950px;
+    height: 600px;
+    top: 100px;
+    left: 0;
+    background: white;
+    -webkit-animation: slide-11-4 1.5s ease-in-out forwards 1.25s;
+    animation: slide-11-4 1.5s ease-in-out forwards 1.25s;
+}
+
+.slide-29-2 {
+    position: absolute;
+    width: 540px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: rgba(238,171,69,0.7);
+    opacity: 0;
+    -webkit-animation: slide-29-2 1.5s ease-in-out forwards 2.25s;
+    animation: slide-29-2 1.5s ease-in-out forwards 2.25s;
+}
+
+.slide-29-3 {
+    position: absolute;
+    top: 440px;
+    left: 50px;
+    width: 418px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 3s;
+    animation: fadeOpen 1s ease-in-out forwards 3s;
+}
+
+.slide-29-4 {
+    position: absolute;
+    top: 570px;
+    left: 122px;
+    width: 90px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 3s;
+    animation: fadeIn 1s ease-in-out forwards 3s;
+}
+
+.slide-29-5 {
+    position: absolute;
+    top: 160px;
+    left: 520px;
+    width: 400px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 3s;
+    animation: fadeOpen 1s ease-in-out forwards 3s;
+}
+
 
 
