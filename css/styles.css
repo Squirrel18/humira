@@ -1716,4 +1716,74 @@ main {
     animation: fadeOpen 1s ease-in-out forwards 3.25s;
 }
 
+.slide-24-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: slide-24-1 3s ease-in-out forwards infinite 750ms;
+    animation: slide-24-1 3s ease-in-out forwards infinite 750ms;
+}
+
+.slide-24-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: slide-24-1 3s ease-in-out forwards infinite 2.25s;
+    animation: slide-24-1 3s ease-in-out forwards infinite 2.25s;
+}
+
+.slide-24-3 {
+    position: absolute;
+    top: 567px;
+    left: 84px;
+    width: 96px;
+    opacity: 0;
+    -webkit-animation: slide-24-3 3s linear forwards infinite 1.5s;
+    animation: slide-24-3 3s linear forwards infinite 1.5s;
+}
+
+.slide-24-4 {
+    position: absolute;
+    top: 554px;
+    left: 328px;
+    width: 43px;
+    opacity: 0;
+    -webkit-animation: slide-24-3 3s linear forwards infinite 1.5s;
+    animation: slide-24-3 3s linear forwards infinite 1.5s;
+}
+
+.slide-24-5 {
+    position: absolute;
+    top: 557px;
+    left: 522px;
+    width: 54px;
+    opacity: 0;
+    -webkit-animation: slide-24-3 3s linear forwards infinite 1.5s;
+    animation: slide-24-3 3s linear forwards infinite 1.5s;
+}
+
+.slide-24-6 {
+    position: absolute;
+    top: 227px;
+    left: 26px;
+    width: 596px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 750ms linear forwards 2.25s;
+    animation: fadeOpen 750ms linear forwards 2.25s;
+}
+
+.slide-24-7 {
+    position: absolute;
+    top: 382px;
+    left: 152px;
+    width: 90px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s linear forwards 2.25s;
+    animation: fadeIn 1s linear forwards 2.25s;
+}
+
 
