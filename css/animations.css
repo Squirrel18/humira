@@ -372,6 +372,18 @@
     100% {opacity: 1;}
 }
 
+@-webkit-keyframes slide-22-2 { 
+    0% {left: -300px; opacity: 1;}
+    50% {left: 0px; opacity: 1;}
+    100% {left: -300px; opacity: 1;}
+}
+
+@keyframes slide-22-2 { 
+    0% {left: -300px; opacity: 1;}
+    50% {left: 0px; opacity: 1;}
+    100% {left: -300px; opacity: 1;}
+}
+
 
 
 

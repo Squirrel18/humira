@@ -1620,4 +1620,36 @@ main {
     animation: fadeIn 1s ease-in-out forwards 2.75s;
 }
 
+.slide-22-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -moz-animation: fadeIn 1s ease-in-out forwards 750ms;
+    -o-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-22-2 {
+    position: absolute;
+    top: -170px;
+    left: -400px;
+    width: 1536px;
+    opacity: 0;
+    -webkit-animation: slide-22-2 8s ease-in-out forwards infinite;
+    animation: slide-22-2 8s ease-in-out forwards infinite;
+}
+
+.slide-22-3 {
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    width: 372px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 2s;
+    animation: fadeOpen 1s ease-in-out forwards 2s;
+}
+
 
