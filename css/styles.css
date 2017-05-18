@@ -1896,5 +1896,75 @@ main {
     animation: fadeOpen 1s ease-in-out forwards 3.25s;
 }
 
+.slide-27-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-27-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 1.25s;
+    animation: fadeIn 1s ease-in-out forwards 1.25s;
+}
+
+.slide-27-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 1.75s;
+    animation: fadeIn 1s ease-in-out forwards 1.75s;
+}
+
+.slide-27-4 {
+    position: absolute;
+    top: 211px;
+    left: 190px;
+    width: 519px;
+    opacity: 0;
+    -webkit-animation: slide-11-4 1s ease-in-out forwards 1.75s;
+    animation: slide-11-4 1s ease-in-out forwards 1.75s;
+}
+
+.slide-27-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 2.75s;
+    animation: fadeIn 1s ease-in-out forwards 2.75s;
+}
+
+.slide-27-6 {
+    position: absolute;
+    top: 211px;
+    left: 190px;
+    width: 519px;
+    opacity: 0;
+    -webkit-animation: slide-11-4 1s ease-in-out forwards 2.75s;
+    animation: slide-11-4 1s ease-in-out forwards 2.75s;
+}
+
+.slide-27-7 {
+    position: absolute;
+    top: 246px;
+    left: 200px;
+    width: 465px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 3.25s;
+    animation: fadeOpen 1s ease-in-out forwards 3.25s;
+}
+
 
 
