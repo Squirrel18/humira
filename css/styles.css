@@ -608,7 +608,7 @@ main {
 .slide-11-3 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 23px;
     width: 1024px;
     opacity: 0;
     -webkit-animation: fadeIn 500ms ease-in-out forwards 2.50s;
