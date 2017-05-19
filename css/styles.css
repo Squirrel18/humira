@@ -2209,5 +2209,15 @@ main {
     animation: fadeOpen 1s ease-in-out forwards 1.25s;
 }
 
+.slide-33-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
 
 
