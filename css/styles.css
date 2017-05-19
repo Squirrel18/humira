@@ -2189,5 +2189,25 @@ main {
     animation: slide-24-1 3s ease-in-out forwards infinite 2.25s;
 }
 
+.slide-32-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in-out forwards 750ms;
+    animation: fadeIn 1s ease-in-out forwards 750ms;
+}
+
+.slide-32-2 {
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    width: 528px;
+    opacity: 0;
+    -webkit-animation: fadeOpen 1s ease-in-out forwards 1.25s;
+    animation: fadeOpen 1s ease-in-out forwards 1.25s;
+}
+
 
 
