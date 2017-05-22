@@ -89,13 +89,21 @@ function slide_6_1() {
     }
 }
 
-var checkArray = [true,true,true,true,true,true,true,true,true];
+var checkArray = [true,true,true,true,true,true,true,true,true,true,true,true,true];
 
 function slide_6_function(data) {
 
+    var element;
     var contain = document.querySelector(".slide-6-contain");
-    var element = contain.children[data];
     var tempImg = document.querySelector(".slide-6-" + data);
+
+    if(data == 0) {
+        element = document.querySelector(".slide-6-element-1");
+        element.style.opacity = '1';
+        console.log(element);
+    } else {
+        element = contain.children[data - 1];
+    }
 
     if(checkArray[data]) {
         element.style.WebkitAnimation = `rotateYwise 750ms ease-in-out forwards`;
