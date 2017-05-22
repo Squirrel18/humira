@@ -5,11 +5,11 @@ function start() {
 function videoCheck() {
     var videoElement = document.querySelector(".index");
     if(videoElement) {
-        videoElement.style.WebkitAnimation = 'fadeClose 250ms ease-in-out forwards';
-        videoElement.style.animation = 'fadeClose 250ms ease-in-out forwards';
+        videoElement.style.WebkitAnimation = 'index-1-end 1s ease-in-out forwards';
+        videoElement.style.animation = 'index-1-end 1s ease-in-out forwards';
         setTimeout(function() {
             window.location.assign("slides/slide-1.html");
-        }, 250);
+        }, 1000);
     }
 }
 
